@@ -1,3 +1,46 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #ffbaaa;
+  font-family: Merriweather, Futura, 
+  Helvetica, Arial, serif,
+  sans-serif;
+  color: #35345e;
+  position: relative;
+  padding-top: 10px;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+ }
+
+
+h1, 
+a {
+	color: #D9534F;
+	font-size: 130%;
+
+}
+
+h1 {
+	font-size: 200%;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.copyright,
+.twitter a,
+.fb-like,
+.fb-share-button a {
+  color: #0000cc;
+  font-family: sans-serif;
+  font-size: 80%;
+  padding: 0px;
+}
