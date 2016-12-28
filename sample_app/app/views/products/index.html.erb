@@ -39,7 +39,7 @@
       <div class="col-sm-2 col-md-4">
         
         <h1><%= product.name %></h1>
-        <%= image_tag("http://www.cartier.com/content/dam/rcq/car/60/37/40/603740.png.scale.314.high.png", size: "100x100", class: "img-responsive") %>
+        <%= image_tag(product.image_url, size: "100x100", class: "img-responsive") %>
         <p><%= product.description %></p>
         <p><%= product.colour %></p>
         <p><%= product.price %></p>
