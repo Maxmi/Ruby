@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-sm-2 col-md-4">
       <%= image_tag(product.image_url, size: "100x100", class: "img-responsive") %>
-    </div><!-- /col -->
+    </div>
     <div class="col-xs-12 col-md-6 text-center">
       <h2><%= product.name %></h2>
       <hr>
@@ -12,5 +12,5 @@
       <%= link_to 'Edit', edit_product_path(product) %>
       <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
       <hr>
-    </div><!-- /col -->
-  </div><!-- /row -->
+    </div>
+  </div>
