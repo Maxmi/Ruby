@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails-controller-testing'
+
 gem 'will_paginate', '~> 3.1.0'
 
 gem 'thor', '~> 0.19.1'
